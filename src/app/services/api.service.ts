@@ -25,7 +25,7 @@ export class ApiService {
 
   deleteEmployee(employeeId: any): Observable<any> {
     return this.http.delete(
-      `${environment.API_ENDPOINT}/web/api/v1/employees/delete/${employeeId}`
+      `${environment.API_ENDPOINT}/web/api/v1/employees/delete?${employeeId}`
     );
   }
 

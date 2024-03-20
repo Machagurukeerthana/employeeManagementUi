@@ -32,7 +32,6 @@ export class EmpAddEditComponent implements OnInit {
       gender: ['', Validators.required],
       address: ['', Validators.required],
       department: ['', Validators.required],
-      position: [''],
       salary: ['', Validators.required],
       employeeId: [''],
     });
