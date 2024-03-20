@@ -1,0 +1,57 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main-body {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1348px;
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.action {
+  display: flex;
+  gap: 5px;
+}
+
+/* Responsive styles for the main container */
+.main-body {
+  padding: 20px;
+}
+
+/* Styles for the table container */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Responsive styles for the table */
+.mat-table {
+  width: 100%;
+}
+
+/* Styles for the table header cells */
+.mat-header-cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Styles for the table cell contents */
+.mat-cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Styles for the no data row */
+.mat-row.mat-no-data {
+  display: table-row;
+}
+
+/* Styles for the paginator */
+.mat-paginator {
+  justify-content: center;
+  margin-top: 20px;
+}
